@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: #ccc;
+}
+
+.containerCards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;   
+}
+
+.card{
+  /* border:5px solid red; */
+  width: 18rem;
+  background: white;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  color: darkgray;
+}
+
+img{
+  width: 5rem;
+  height: 15rem;
+}
+
